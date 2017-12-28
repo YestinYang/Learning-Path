@@ -7,4 +7,8 @@ My complete items are as below:
 3. 
 
 Below are the items have been studied and to keep as reference in the future:
-1. Convolution model-Application-v1.ipynb  *from Andrew Ng Deep Learning Specialization Course 4 Week 1* (introduce the building process of ConvNet in Tensorflow, with minibatch training and randomize minibatch per epoch)
+1. Convolution model-Application-v1.ipynb  *from Andrew Ng Deep Learning Specialization Course 4 Week 1*
+	- introduce the building process of ConvNet in Tensorflow, with minibatch training and randomize minibatch per epoch
+2. Art Generation with Neural Style Transfer-v2.ipynb  *from Andrew Ng Deep Learning Specialization Course 4 Week 4*
+	- Define pixels of target picture as trainable variables, and use the 'difference' of pictures loss function
+	- pretrained model does not include in repo, and can be downloaded from [this link ](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat)
