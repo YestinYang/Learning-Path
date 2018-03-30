@@ -24,9 +24,10 @@
 
 1. [三隐藏层：数字手势识别](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Tensorflow%20for%20Signs/Tensorflow%20Tutorial.ipynb) （用Tensorflow构建并训练模型）
 2. [多隐藏层：分辨图片是否为猫](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Deep%20Neural%20Network%20Application_%20Image%20Classification/Deep%20Neural%20Network%20-%20Application%20v3.ipynb) （研究隐藏层数对于结果的影响；用Numpy构建并训练模型）
-3. [单隐藏层：分辨二元图形](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Planar%20data%20classification%20with%20one%20hidden%20layer/Planar%20data%20classification%20with%20one%20hidden%20layer%20v4.ipynb) （研究隐藏单元数量对于结果的影响；用Numpy构建并训练模型）
-   - ![](img\single_layer_NN.png)
+3. [单隐藏层：分辨二元图形](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Planar%20data%20classification%20with%20one%20hidden%20layer/Planar%20data%20classification%20with%20one%20hidden%20layer%20v4.ipynb) （研究隐藏单元数量对于结果的影响；用Numpy构建并训练模型）![](img\single_layer_NN.png)
 4. [以梯度下降训练逻辑回归模型：分辨图片是否为猫](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Logistic%20Regression%20as%20a%20Neural%20Network/Logistic%20Regression%20with%20a%20Neural%20Network%20mindset%20v4.ipynb) （预处理图片文件，用Numpy定义正反向传播算法、sigmoid激活函数和成本函数，训练模型并进行预测）
+
+
 
 ##心得和总结
 
