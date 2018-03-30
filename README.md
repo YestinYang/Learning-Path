@@ -18,7 +18,7 @@
 
 ### 卷积神经网络 CNN
 
-1. [ResNet-50：数字手势识别](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/ResNets/Residual%20Networks%20-%20v2.ipynb) （Identity / Convolutional Block；用Keras构建并训练模型；未上传pre-trained model）
+1. [ResNet-50：数字手势识别](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/ResNets/Residual%20Networks%20-%20v2.ipynb) （Identity / Convolutional Block；用Keras构建并训练模型；未上传trained model）
 2. [CNN：笑脸识别](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Keras%20for%20Happy%20Face/Keras%20-%20Tutorial%20-%20Happy%20House%20v2.ipynb) （ZeroPad + Conv2D + BatchNorm + ReLu + MaxPool；用Keras构建并训练模型）
 3. [CNN：数字手势识别](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/CNN%20for%20Signs/Convolution%20model%20-%20Application%20-%20v1.ipynb) （[Conv2D + ReLu + MaxPool]*2；用Tensorflow构建并训练模型）
 
