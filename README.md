@@ -12,9 +12,10 @@
 
 ## 项目列表
 
-### 循环神经网络 RNN
+### 递归神经网络 RNN
 
-
+- [One-to-many LSTM：爵士即兴作曲](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Jazz%20improvisation%20with%20LSTM/Improvise%20a%20Jazz%20Solo%20with%20an%20LSTM%20Network%20-%20v3.ipynb) （in Keras；[结果声音文件](https://raw.githubusercontent.com/YestinYang/Studying-Machine-Deep-Learning/master/Projects/Jazz%20improvisation%20with%20LSTM/data/30s_trained_model.mp3)）
+- [One-to-many RNN：生成风格一致的名字](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Dinosaur%20Island%20--%20Character-level%20language%20model/Dinosaurus%20Island%20--%20Character%20level%20language%20model%20final%20-%20v3.ipynb) （in Numpy；以恐龙的名字训练RNN，并逐字母生成新名字）
 
 ### 卷积神经网络 CNN
 
@@ -37,9 +38,9 @@
 
 ## 心得和总结
 
-### 循环神经网络 RNN
+### 递归神经网络 RNN
 
-
+- [用Numpy构建递归神经网络正向传播算法](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step%20-%20v2.ipynb) （RNN, LSTM cell and network）
 
 ### 卷积神经网络 CNN
 
@@ -54,7 +55,7 @@
 5. [不同正则化方法对深度神经网络的影响](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Regularization/Regularization.ipynb) （None / L2 / Dropout）
 6. [不同初始化方法对深度神经网络的影响](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Initialization/Initialization.ipynb) （Zero / Random / He initialization）
 7. [用Numpy构建多隐藏层深度神经网络](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step/Building%20your%20Deep%20Neural%20Network%20-%20Step%20by%20Step%20v5.ipynb) 
-8. [深度学习中的Numpy使用](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Python_Basics_with_Numpy/Python%20Basics%20With%20Numpy%20v3.ipynb) (Reshape, Normalization, Broadcasting, Vectorization)
+8. [深度学习中的Numpy使用](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Python_Basics_with_Numpy/Python%20Basics%20With%20Numpy%20v3.ipynb) （Reshape, Normalization, Broadcasting, Vectorization）
 
 ### 机器学习
 
@@ -62,7 +63,7 @@
 
 ### Python基础
 
-1. [Class面向对象编程](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Class_OOP.ipynb) (Class / Instance Variable, Regular / Class / Static Method, Inheritance, Dunder Method, Decorators)
+1. [Class面向对象编程](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Class_OOP.ipynb) （Class / Instance Variable, Regular / Class / Static Method, Inheritance, Dunder Method, Decorators）
 2. Python编程小实验
   - 创建网站介绍喜欢的电影 --> 进行中
   - [`turtle` 绘图](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/drawing_turtle.py) / [工作间隔休息提醒器](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/take_break.py) / [用词不当检测器](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/word_checker.py) / [批量文件自定义规则重命名](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/rename.py)
