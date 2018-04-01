@@ -1,4 +1,4 @@
-# Machine Learning and Deep Learning
+# Learning Path of Machine Learning / Deep Learning / Data Analysis
 内容以时间倒序（由近期到早期）排列。
 
 ## 学习清单
