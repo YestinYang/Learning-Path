@@ -14,6 +14,8 @@
 
 ### 递归神经网络 RNN
 
+- [Many-to-many Attention Bi-LSTM：将混合格式的日期翻译为标准机器可读的日期]() （in Keras；）
+- [Many-to-one LSTM：根据聊天文本自动选择合适的Emoji表情](https://github.com/YestinYang/Learning-Path/blob/master/Projects/Emojify/Emojify%20-%20v2.ipynb) （in Keras；第一套方案为word vector均值 + Softmax；第二套方案为Embedding + [LSTM + Dropout]*2 + Softmax）
 - [One-to-many LSTM：爵士即兴作曲](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Jazz%20improvisation%20with%20LSTM/Improvise%20a%20Jazz%20Solo%20with%20an%20LSTM%20Network%20-%20v3.ipynb) （in Keras；[结果声音文件](https://raw.githubusercontent.com/YestinYang/Studying-Machine-Deep-Learning/master/Projects/Jazz%20improvisation%20with%20LSTM/data/30s_trained_model.mp3)）
 - [One-to-many RNN：生成风格一致的名字](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Dinosaur%20Island%20--%20Character-level%20language%20model/Dinosaurus%20Island%20--%20Character%20level%20language%20model%20final%20-%20v3.ipynb) （in Numpy；以恐龙的名字训练RNN，并逐字母生成新名字）
 
@@ -40,6 +42,7 @@
 
 ### 递归神经网络 RNN
 
+- [词语类比及去偏差](https://github.com/YestinYang/Learning-Path/blob/master/Deep%20Learning/Word%20Vector%20Representation/Operations%20on%20word%20vectors%20-%20v2.ipynb) （根据GloVe word embedding结果获取word vector, 计算Cosine similarity以完成 `a->b = c->?` 的类比；去除word vector的性别偏差）
 - [用Numpy构建递归神经网络正向传播算法](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Deep%20Learning/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step%20-%20v2.ipynb) （RNN, LSTM cell and network）
 
 ### 卷积神经网络 CNN
