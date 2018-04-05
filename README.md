@@ -14,7 +14,7 @@
 
 ### 递归神经网络 RNN
 
-- [Many-to-many Attention Bi-LSTM：将混合格式的日期翻译为标准机器可读的日期]() （in Keras；）
+- [Many-to-many Attention Bi-LSTM for Translation：将多种格式的日期翻译为标准格式的日期](https://github.com/YestinYang/Learning-Path/blob/master/Projects/Machine%20Translation/Neural%20machine%20translation%20with%20attention%20-%20v3.ipynb) （in Keras；Bi-LSTM as encoder + Attention + LSTM as decoder + softmax，其中Attention layer包括RepeatVector for last output of decoder + Concatenate to output of encoder + Dense + Softmax for weight + Dot for context of decoder；可视化Attention结果）
 - [Many-to-one LSTM：根据聊天文本自动选择合适的Emoji表情](https://github.com/YestinYang/Learning-Path/blob/master/Projects/Emojify/Emojify%20-%20v2.ipynb) （in Keras；第一套方案为word vector均值 + Softmax；第二套方案为Embedding + [LSTM + Dropout]*2 + Softmax）
 - [One-to-many LSTM：爵士即兴作曲](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Jazz%20improvisation%20with%20LSTM/Improvise%20a%20Jazz%20Solo%20with%20an%20LSTM%20Network%20-%20v3.ipynb) （in Keras；[结果声音文件](https://raw.githubusercontent.com/YestinYang/Studying-Machine-Deep-Learning/master/Projects/Jazz%20improvisation%20with%20LSTM/data/30s_trained_model.mp3)）
 - [One-to-many RNN：生成风格一致的名字](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Dinosaur%20Island%20--%20Character-level%20language%20model/Dinosaurus%20Island%20--%20Character%20level%20language%20model%20final%20-%20v3.ipynb) （in Numpy；以恐龙的名字训练RNN，并逐字母生成新名字）
