@@ -66,6 +66,7 @@
 ### 机器学习
 
 1. [决策树算法理论](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Machine%20Learning/Tree_Based_Algorithm_Related_Topics.ipynb)（随机森林原理，Bootstrap采样，OOB误差评估）
+2. 用Matlab实现机器学习算法（[逻辑回归](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab1-Logistic%20Regression) ；[正则化](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab2-Regularization) ；[多元分类](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab3-Multi-Class%20Classification) ；[神经网络](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab4-Neural%20Network) ；[Bias vs Variance](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab5-Bias%20and%20Variance) ；[SVM支持向量机](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab6-SVM) ；[聚类与降维](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab7-Unsupervised) ；[异常检测与推荐](https://github.com/YestinYang/Learning-Path/tree/master/Machine%20Learning/matlab8-Anomaly%20and%20Recommendation) ）
 
 ### Python基础
 
