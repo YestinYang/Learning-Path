@@ -14,6 +14,14 @@
 
 ## 项目列表
 
+### 数据挖掘
+
+- `pandas` [采集评估清理WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
+  - 进行中
+- `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
+  - 整理中
+  - [比赛项目介绍](https://datasciencecapstone.org/competitions/2/student-earnings/page/6/) 及[成绩排行榜](https://datasciencecapstone.org/competitions/2/student-earnings/leaderboard/) （ID为yestinyang88）
+
 ### 递归神经网络 RNN
 
 - `Keras` [Many-to-many GRU：语音唤醒](https://github.com/YestinYang/Learning-Path/blob/master/Projects/Trigger%20word%20detection/Trigger%20word%20detection%20-%20v1.ipynb)  （CONV-1D + Batch Norm + ReLu + Dropout + [GRU + Dropout + Batch Norm]*2 + Dropout + Dense + Sigmoid；未上传train/validation dataset）
