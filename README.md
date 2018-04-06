@@ -14,7 +14,7 @@
 
 ## 项目列表
 
-### 数据挖掘
+### 数据分析及数据挖掘
 
 - `pandas` [采集评估清理WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
   - 进行中
