@@ -19,11 +19,11 @@
 - `pandas` [采集评估清理WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
   - 进行中
 - `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
-  - 基本思路（整理完成第一步）
+  - 基本思路（整理完成第三步）
     1. 必要的数据清洗，包括fill missing value, ordinal and one-hot encoding of categorical features
     2. 建立基准模型
-    3. 根据基准模型的CV结果，迭代探索更多的数据清理和特征工程
-    4. 用遗传算法找出最优的单模型
+    3. 根据基准模型的CV结果，迭代探索更多的数据清理和特征工程，包括remove high correlated features, interpolate with ExtraTreesRegressor for important feature
+    4. 训练最优的单模型
     5. Stacking Models
   - [比赛项目介绍](https://datasciencecapstone.org/competitions/2/student-earnings/page/6/) 及[成绩排行榜](https://datasciencecapstone.org/competitions/2/student-earnings/leaderboard/) （ID为yestinyang88）
 
