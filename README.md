@@ -16,14 +16,18 @@
 
 ### 数据分析及数据挖掘
 
-- `pandas` [采集评估清理WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
-  - 进行中
+- `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
+  - 基本步骤（进行中）
+    1. 根据`tweet_id` 从Twitter API抓取信息，并将现有信息`csv` 合并到`JSON` 文件中，再整理成`pandas.DataFrame` 
+    2. 评估并清洗数据，满足质量与整洁的要求
+    3. 对数据进行统计分析和可视化
+    4. 完成分析报告
 - `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
-  - 基本思路（整理完成第三步）
+  - 基本思路（整理完成第四步）
     1. 必要的数据清洗，包括fill missing value, ordinal and one-hot encoding of categorical features
     2. 建立基准模型
     3. 根据基准模型的CV结果，迭代探索更多的数据清理和特征工程，包括remove high correlated features, interpolate with ExtraTreesRegressor for important feature
-    4. 训练最优的单模型
+    4. 训练最优的单模型，评估模型包括`scikit-learn` 中的tree based models、XGBoost和LightGBM
     5. Stacking Models
   - [比赛项目介绍](https://datasciencecapstone.org/competitions/2/student-earnings/page/6/) 及[成绩排行榜](https://datasciencecapstone.org/competitions/2/student-earnings/leaderboard/) （ID为yestinyang88）
 
