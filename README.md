@@ -27,7 +27,7 @@
     1. 必要的数据清洗，包括fill missing value, ordinal and one-hot encoding of categorical features
     2. 建立基准模型
     3. 根据基准模型的CV结果，迭代探索更多的数据清理和特征工程，包括remove high correlated features, interpolate with ExtraTreesRegressor for important feature
-    4. 训练最优的单模型，评估模型包括`scikit-learn` 中的tree based models、XGBoost和LightGBM
+    4. 训练最优的单模型，评估模型包括`scikit-learn` 中的多个tree based models、XGBoost和LightGBM
     5. Stacking Models
   - [比赛项目介绍](https://datasciencecapstone.org/competitions/2/student-earnings/page/6/) 及[成绩排行榜](https://datasciencecapstone.org/competitions/2/student-earnings/leaderboard/) （ID为yestinyang88）
 
