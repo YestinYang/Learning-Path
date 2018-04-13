@@ -16,7 +16,7 @@
 
 ### 数据分析及数据挖掘
 
-- `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/WeRateDogs.ipynb) 
+- `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/wrangle_act.ipynb) 
   - 基本思路（完成第一步）
     1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并将整理成`pandas.DataFrame` 
     2. 数据评估与清洗：满足质量与整洁的要求
