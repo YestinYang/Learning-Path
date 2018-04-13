@@ -18,8 +18,8 @@
 
 - `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/wrangle_act.ipynb) 
   - 基本思路（完成第一步）
-    1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并将整理成`pandas.DataFrame` 
-    2. 数据评估与清洗：满足质量与整洁的要求
+    1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并分别输出为`pandas.DataFrame` 
+    2. 数据评估与清洗：满足质量与整洁要求
     3. 数据分析：对数据进行统计分析和可视化
     4. 完成分析报告
 - `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
