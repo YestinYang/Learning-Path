@@ -5,9 +5,9 @@
 
 1. [Udacity Data Analyst (Advanced)](https://cn.udacity.com/course/data-analyst-nanodegree--nd002-cn-advanced) --> 进行中 (2018)
 2. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) --> [完成证书](https://www.coursera.org/account/accomplishments/specialization/certificate/MAJJ6QCYCYTX)  (2017-2018；笔记整理完毕)
-   - 深度神经网络、卷积神经网络、递归神经网络、神经网络调参与优化
+   - 深度神经网络、卷积神经网络、递归神经网络、神经网络项目设计原则、数据集工程、模型误差分析
 3. [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning/) --> [完成证书](https://www.coursera.org/account/accomplishments/certificate/A4DF5DYNZENU) (2018；笔记整理完毕)
-   - 逻辑回归，多元分类，神经网络，SVM，聚类与降维，异常检测，推荐算法
+   - 逻辑回归，多元分类，神经网络，SVM，聚类与降维，异常检测，推荐算法，机器学习模型分析与评估
 4. [Microsoft Professional Program in Data Science](https://www.edx.org/microsoft-professional-program-data-science) --> [完成证书](https://academy.microsoft.com/en-us/certificates/7539ddd1-5a3a-4bfe-9c0b-a2ed2bb42b8f/) (2016-2017；笔记整理中2/7)
    - 数据科学导论、Transact-SQL、Excel数据分析及可视化、数据科学的统计思维与分析、Python入门、数据科学基础、机器学习原理、Python数据科学编程、机器学习应用
 
