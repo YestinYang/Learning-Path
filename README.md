@@ -26,7 +26,7 @@
     3. 数据分析：对数据进行统计分析和可视化
     4. 完成分析报告
 - `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
-  - 基本思路（整理完成第四步）
+  - 基本思路（已整理完成前四步）
     1. 必要的数据清洗，包括fill missing value, ordinal and one-hot encoding of categorical features
     2. 建立基准模型
     3. 根据基准模型的CV结果，迭代探索更多的数据清理和特征工程，包括remove high correlated features, interpolate with ExtraTreesRegressor for important feature
