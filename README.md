@@ -90,9 +90,10 @@
 
 ### Python基础
 
-1. [Python推导式](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Python_Comprehensions.ipynb) （List / Dictionary / Set / Generator Comprehensions）
-2. [Class面向对象编程](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Class_OOP.ipynb) （Class / Instance Variable, Regular / Class / Static Method, Inheritance, Dunder Method, Decorators）
-2. Python编程小实验
+1. [正则表达式与Python re模块](https://github.com/YestinYang/Learning-Path/blob/master/Basic%20Python/Regex_and_Python_re.ipynb) （regular expression / compile / finditer / findall / match / search）
+2. [Python推导式](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Python_Comprehensions.ipynb) （List / Dictionary / Set / Generator Comprehensions）
+3. [Class面向对象编程](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/Class_OOP.ipynb) （Class / Instance Variable, Regular / Class / Static Method, Inheritance, Dunder Method, Decorators）
+4. Python编程小实验
   - 创建网站介绍喜欢的电影 --> 进行中
   - [`turtle` 绘图](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/drawing_turtle.py) / [工作间隔休息提醒器](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/take_break.py) / [用词不当检测器](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/word_checker.py) / [批量文件自定义规则重命名](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Basic%20Python/rename.py)
 
