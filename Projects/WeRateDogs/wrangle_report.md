@@ -29,7 +29,8 @@
 - `in_reply_to_status_id` 、`in_reply_to_user_id` 和`retweeted_status_id`、 `retweeted_status_user_id` 、`retweeted_status_timestamp` 的非空行都属于回复或转发的信息。考虑到项目的要求— 只考虑含有图片的原始评级，那么由于回复和转发属于非原始评级，属于数据质量问题。
 - `expanded_urls` 包含了每条推特的图片信息，若此项为空值，那么对应行所代表的推特不含有图片。同样依照上述项目要求，应该被删除，属于数据质量问题。并且该列的同一数据格中有重复的URL，需要删除，属于数据整洁问题。
 - `source` 的值皆为html链接标签，但从数据分析角度，只有其中的content具有分析价值。此处属于数据质量问题。
-- `name` 是从推特的`text` 中提取的宠物名字，但明显的问题在于其中包含了大量不是名字的英文量词或介词，需要去掉。此处属于数据质量问题。
+- `name` 是从推特的`text` 中提取的宠物名字，但明显的问题在于其中包含了大量不是名字的英文量词或介词，需要重新从`text` 中提取。此处属于数据质量问题。
+- `rating_numerator` 是评分的分子，但此列中有一些值与`text` 中的评分有出入，未能提取带有小数点的分子。此处属于数据质量问题。
 - `rating_denominator` 是评分的分母，但此分母为图片狗数量的倍数，由于缺乏规律，难以进行分析。此处属于数据质量问题。
 - `timestamp` 的数据类型为`object` ，但由于其是日期时间，应该为`datetime` ，且所有时间后面都有+0000的时区编码，并无分析意义。此处属于数据质量问题。
 - `doggo` `floofer` `pupper` `puppo` 实际上属于一个观察值— 狗的地位。此处属于数据整洁问题。
@@ -48,7 +49,7 @@
 
 首先处理数据整洁度的问题：
 
-1. 删除`expanded_urls` 中每个数据格内重复的URL，发现最多剩余的两个URL，且最多只有一个twitter内部链接。故将此列拆分成`twitter_urls`和 `outter_urls` 两列进行保存。
+1. 删除`expanded_urls` 中每个数据格内重复的URL。
 2. 合并`doggo` `floofer` `pupper` `puppo` 四列为一列。
 3. 将推特图片预测数据仅提取最高概率且为狗的预测值（包括狗种名称和概率），通过`left join on tweet_id` 合并到主表中。并以同样的方法将额外数据中的`retweet_count` 和`favorite_count` 合并到主表中。
 
@@ -56,9 +57,10 @@
 
 1. 先进行删除数据条目的部分，即依次删除回复、转发、无图片的推特（行）。
 2. 通过正则表达式提取`source` 列中html的content部分，并替换原数据格。
-3. 通过正则表达式提取`name` 中以小写字母开头的，或为None的值，并用`numpy.nan` 替换原数据格。
-4. 手动处理4行`rating_denominator` 不等于10的倍数的行，接着将该列的所有值除以10并保存为新的表示图片中狗的数量的列`num_of_dog` ，再将`rating_numerator` 除以新保存的列，得到以均值统一化的评分，并保存为新列`avg_rating`  。最后，删除原有的分子和分母列。
-5. 通过正则表达式提取`timestamp` 中的+0000，并用空值`''` 替代，以达到删除的目的。
-6. 转换`timestamp` 为datetime数据格式。
-7. 将所有None全部替换成`numpy.nan` 。
-8. 将狗种名称改为首字母大写。
+3. 通过正则表达式提取`name` 中以小写字母开头的，或为None的值，并从对应的`text` 中用正则表达式重新提取。
+4. 通过正则表达式提取`text` 中的评分分子（含小数），更新`rating_numerator` 。
+5. 手动处理4行`rating_denominator` 不等于10的倍数的行，接着将该列的所有值除以10并保存为新的表示图片中狗的数量的列`num_of_dog` ，再将`rating_numerator` 除以新保存的列，得到以均值统一化的评分，并保存为新列`avg_rating`  。最后，删除原有的分子和分母列。
+6. 通过正则表达式提取`timestamp` 中的+0000，并用空值`''` 替代，以达到删除的目的。
+7. 转换`timestamp` 为datetime数据格式。
+8. 将所有None全部替换成`numpy.nan` 。
+9. 将狗种名称改为首字母大写。
