@@ -20,11 +20,10 @@
 ### 数据分析及数据挖掘
 
 - `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/wrangle_act.ipynb) 
-  - 基本思路（完成第二步）
-    1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并分别转化为`pandas.DataFrame` 
-    2. 数据评估与清洗：满足质量与整洁度的要求
-    3. 数据分析：对数据进行统计分析和可视化
-    4. 完成分析报告
+  1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并分别转化为`pandas.DataFrame` 
+  2. 数据评估与清洗：满足质量与整洁度的要求
+  3. 数据分析：对数据进行统计分析和可视化
+  4. 完成[项目报告](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/wrangle_report.md) 和[分析结果分享](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/act_report.md) 
 - `scikit-learn` `pandas` [预测美国大学毕业生收入水平](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Predict_Student_Earnings.ipynb) （[数据分析报告PDF](https://github.com/YestinYang/Learning-Path/blob/master/Projects/MS_Predict%20Student%20Earnings/Analysis%20of%20Student%20Earnings.pdf)）
   - 基本思路（已整理完成前四步）
     1. 必要的数据清洗，包括fill missing value, ordinal and one-hot encoding of categorical features
@@ -57,7 +56,6 @@
 2. `Numpy` [多隐藏层：分辨图片是否为猫](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Deep%20Neural%20Network%20Application_%20Image%20Classification/Deep%20Neural%20Network%20-%20Application%20v3.ipynb) （研究隐藏层数对于结果的影响）
 3. `Numpy` [单隐藏层：分辨二元图形](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Planar%20data%20classification%20with%20one%20hidden%20layer/Planar%20data%20classification%20with%20one%20hidden%20layer%20v4.ipynb) （研究隐藏单元数量对于结果的影响；[结果图像](https://raw.githubusercontent.com/YestinYang/Studying-Machine-Deep-Learning/master/img/single_layer_NN.png) ）
 4. `Numpy` [以梯度下降训练逻辑回归模型：分辨图片是否为猫](https://github.com/YestinYang/Studying-Machine-Deep-Learning/blob/master/Projects/Logistic%20Regression%20as%20a%20Neural%20Network/Logistic%20Regression%20with%20a%20Neural%20Network%20mindset%20v4.ipynb) （预处理图片文件，用Numpy定义正反向传播算法、sigmoid激活函数和成本函数，训练模型并进行预测）
-
 
 ------
 
