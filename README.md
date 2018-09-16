@@ -3,8 +3,9 @@
 
 ## 学习清单
 
-1. [Udacity Data Analyst (Advanced)](https://cn.udacity.com/course/data-analyst-nanodegree--nd002-cn-advanced) --> 进行中 (2018)
-2. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) --> [完成证书](https://www.coursera.org/account/accomplishments/specialization/certificate/MAJJ6QCYCYTX)  (2017-2018；笔记整理完毕)
+1. [Udacity Data Analyst (Advanced)](https://cn.udacity.com/course/data-analyst-nanodegree--nd002-cn-advanced) --> [完成证书](https://confirm.udacity.com/EAMNGWLL) (2018；笔记整理中1/4)
+   - Python数据采集清洗分析、R探索性数据分析（EDA）、Tableau数据故事展示
+2. [Deep Learning Specialization by Andrew Ng](https://www.coursera.org/specializations/deep-learning) --> [完成证书](https://www.coursera.org/account/accomplishments/specialization/certificate/MAJJ6QCYCYTX) (2017-2018；笔记整理完毕)
    - 深度神经网络、卷积神经网络、递归神经网络、神经网络项目设计原则、数据集工程、模型误差分析
 3. [Machine Learning by Andrew Ng](https://www.coursera.org/learn/machine-learning/) --> [完成证书](https://www.coursera.org/account/accomplishments/certificate/A4DF5DYNZENU) (2018；笔记整理完毕)
    - 逻辑回归，多元分类，神经网络，SVM，聚类与降维，异常检测，推荐算法，机器学习模型分析与评估
@@ -19,6 +20,14 @@
 
 ### 数据分析及数据挖掘
 
+- `Tableau` [设计数据故事以展现棒球选手数据集中的潜在关系](https://public.tableau.com/profile/yang.yue5767#!/vizhome/Udacity_Tableau_Project_final/sheet5?publish=yes) （[设计思路报告](https://github.com/YestinYang/Learning-Path/blob/master/Projects/Tableau%20Storytelling/用Tableau讲故事.md)）
+  1. 探索分析：多种不同类型特征间的关联分析
+  2. 设计故事的初版，向听众展示并收集反馈意见
+  3. 根据反馈意见修改所设计的故事，形成终版
+- `R` [对红酒品质评级数据集进行探索性分析](https://github.com/YestinYang/Learning-Path/blob/master/Projects/EDA%20of%20Red%20Wine/projectTemplate-zh.RMD) （[含图HTML版，需下载](https://raw.githubusercontent.com/YestinYang/Learning-Path/master/Projects/EDA%20of%20Red%20Wine/projectTemplate-zh.html)）
+  1. 数据集清理
+  2. 定性定量分析：单变量、双变量及多变量
+  3. 总结与反思：核心探索结论的可视化展现，及其讨论
 - `pandas` [采集评估清理分析WeRateDogs的Twitter数据](https://github.com/YestinYang/Learning-Path/blob/master/Projects/WeRateDogs/wrangle_act.ipynb) 
   1. 数据采集：从本地、url、Twitter API三个数据源采集数据，并分别转化为`pandas.DataFrame` 
   2. 数据评估与清洗：满足质量与整洁度的要求
